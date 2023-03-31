@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <title> 
+            HTML Tables
+        </title>
+            <link rel="stylesheet" href="assets/style.css">
+    </head>
+
+    <body>
+            <table border="1">
+                    <thead>
+                        <th colspan="2">Enter your information</th>
+                    </thead>
+                    
+                    <tbody>
+                        <form action="process.html" method="post">
+                        <tr>
+                            <td>
+                                <label for="full_name">
+                                    Full name
+                                </label>
+                                <input type="text" name="full_name">
+                            </td>
+
+                            <td>
+                                <label for="age">
+                                    Age
+                                </label>
+                                <input type="number" name="age">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="age">
+                                Birthday
+                                </label>
+                                <input type="date" name="bday">
+                            </td>
+                            <td>
+                                <label for="telephone">
+                                    Telephone
+                                </label>
+                                <input type="tel" name="number">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>How Did You Hear About Us</p>
+                            <input type="radio" name="source" id="search_engine" value="search_engine">
+                            <label form="search_engine">
+                                Search engine(Google, Yahoo,etc)
+                            </label>
+                            
+                            <input type="radio" name="source" id="social_media" value="social_media">
+                            <label form="social_media">
+                                Social media
+                            </label>
+                            <br>
+                            <input type="radio" name="source" id="recommendation" value="recommendation">
+                            <label form="recommendation">
+                                Recommended by friend or colleague
+                            </label>
+
+                            <input type="radio" name="source" id="blog" value="blog">
+                            <label form="blog">
+                                Blog or publications 
+                            </label>
+
+                            <input type="radio" name="source" id="others" value="others">
+                            <label form="others">
+                                Other:
+                            </label>
+                            </td>
+
+                            <td>
+                                <label for="email">
+                                    Email Address
+                                </label>
+                                <input type="email" name="email">
+                            </td>
+                        </tr>
+                        </form>
+                    </tbody>
+            </table>
+
+
+                <table id="users">
+                    <thead>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th colspan="3">Email&Phone number</th>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Ero</td>
+                            <td>28</td>
+                            <td></td>
+                            <td rowspan="4">+2222222223334</td>
+                        </tr>
+
+                        <tr>
+                            <td>Katsue</td>
+                            <td>36</td>
+                            <td>katsue@gmai.com</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Nana</td>
+                            <td></td>
+                            <td>Nana@gmai.com</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Chica</td>
+                            <td>27</td>
+                            <td>Chica@gmai.com</td>
+                           
+                        </tr>
+
+                    </tbody>
+                </table>
+            </body>
+    </html>
+
+
+       
