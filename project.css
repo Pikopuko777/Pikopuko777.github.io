@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Raleway:wght@400;500;700&display=swap');
+
+body {
+    margin: 0 auto;
+    width: 860px;
+}
+
+header {
+    padding: 15px;
+}
+
+#title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #96746b;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav {
+    float: right;
+    padding: 0;
+}
+
+nav ul {
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+#banner {
+    background-image: url('images/uniquely-fresh-taste.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+
+#banner-title {
+    font-weight: bolder;
+    font-size: 40px;
+    color: #c7a17a;
+    top: 170px;
+    position: absolute;
+    left: 25%;
+    font-family: 'Oswald', sans-serif;
+    z-index: 2;
+}
+
+#banner-title2 {
+    color: #96746b;
+    font-size: 40px;
+}
+
+#banner-sentence {
+    color: white;
+    position: absolute;
+    top: 230px;
+    z-index: 2;
+    font-size: 2px;
+    left: 25%
+}
+
+#banner-button {
+    position: absolute;
+    top: 250px;
+    z-index: 2;
+    left: 25%;
+    background-color: #312a26;
+    display: inline;
+    border: none;
+}
+
+#banner-button p {
+    font-weight: bold;
+    font-size: 4px;
+    color: white;
+}
+
+/* images */
+#top-pic1 {
+    top: 370px;;
+    background-image: url('images/seasonal-coffee-flavours.jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    display: flex;
+}
+/* images */
+#top-pic2 {
+    background-image: url('images/coffee-bundle-packages.jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 400px;
+    margin-right: 10px;
+}
+
+#top-title1 {
+    color: white;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 500px;
+    font-size: 25px;
+    left: 20%;
+    text-shadow: 2px 2px 3px black;
+    }
+
+ #top-title2 {
+    color: white;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    left: 20%;
+    position: absolute;
+    top: 850px;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px black;
+    }
+
+#top-pic1 a {
+        color: white;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        left: 20%;
+        position: absolute;
+        top: 580px;
+        text-shadow: 2px 2px 3px black;
+        }
+
+#top-pic2 a {
+        color: white;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        left: 25%;
+        position: absolute;
+        top: 1000px;
+        text-shadow: 2px 2px 3px black;
+        }
+/* images */
+#top-item-pic1 {
+    background-image: url('images/Arabica.jpg');
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+/* images */
+#top-item-pic2 {
+    background-image: url('images/arabica-fine-grind.jpg');
+    background-repeat: no-repeat;
+    height: 100px;
+     width: 100px;
+        }
+
+/* images */
+#top-item-pic3 {
+    background-image: url('images/french-vanilla.jpg');
+    background-repeat: no-repeat;
+}
+
+/* images */
+#top-item-pic4 {
+    background-image: url('images/deluxe-chocolate.jpg');
+    background-repeat: no-repeat;
+}
+
+/* images */
+#top-item-pic5 {
+    background-image: url('images/original-beans.jpg');
+    background-repeat: no-repeat;
+}
+
+/* images */
+#top-item-pic6 {
+    background-image: url('images/paper-pouch.jpg');
+    background-repeat: no-repeat;
+}
+
+/* images */
+#top-item-pic7 {
+    background-image: url('images/frechly-picked.jpg');
+    background-repeat: no-repeat;
+}
+
+#top-item-pic8 {
+    background-image: url('images/mug.jpg');
+    background-repeat: no-repeat;
+}
+
+#middle-long-pic {
+    background-image: url('images/members-discunts.jpg');
+    background-repeat: no-repeat;
+}
+
+#middle-item-pic1 {
+    background-image: url('images/arabica-with cup.jpg');
+    background-repeat: no-repeat;
+                }
+
+#middle-item-pic2 {
+    background-image: url('images/double-arabica.jpg');
+    background-repeat: no-repeat;
+                }
+
+#middle-item-pic3 {
+    background-image: url('images/pape-pouch-100.jpg');
+    background-repeat: no-repeat;
+                }
+
+#middle-item-pic4 {
+    background-image: url('images/double-mug.jpg');
+    background-repeat: no-repeat;
+                }
+
+#middle-title1 {
+    background-image: url('images/coffee-bean-varieties.jpg');
+    background-repeat: no-repeat;
+}
+
+#middle-title2 {
+    background-image: url('images/our-baristas-favorite.jpg');
+    background-repeat: no-repeat;
+}
+
+#middle-title3 {
+    background-image: url('images/coffee-bestsellers.jpg');
+    background-repeat: no-repeat;
+}
+
+#middle-title4 {
+    background-image: url('images/more-than-just-coffee.jpg');
+    background-repeat: no-repeat;
+}
+
+#payment {
+    background-image: url('images/payment.jpg');
+    background-repeat: no-repeat;
+}
+
+#icon-fb{
+    background-image: url('images/icon-fb.png');
+    background-repeat: no-repeat;
+}
+
+#icon-ig {
+    background-image: url('images/icon-ig_360.png');
+    background-repeat: no-repeat;
+}
+
+#icon-tw {
+    background-image: url('images/icon-tw_360.png');
+    
+}
+
+#icon-tw {
+    background-image: url('images/footer-img_720.jpg');
+}
